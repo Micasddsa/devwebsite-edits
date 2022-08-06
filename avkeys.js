@@ -83,8 +83,8 @@ function generateKey(){
         return;
     }
     var key = GenerateKeyForName(name);
-    if (name.startsWith("dev")){
-        document.getElementById("key").innerHTML = "Errors occurred during key generation:<br> * this username format is reserved for internal use";
+    if (name.startsWith("walterwhitebreakingbad")){
+        document.getElementById("key").innerHTML = "Errors occurred during key generation:<br> * WALTER WHITE BREAKING BAD????";
     } 
     else if (name.length >= 15){
         document.getElementById("key").innerHTML = "Errors occurred during key generation:<br> * username too long";
